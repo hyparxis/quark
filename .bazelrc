@@ -1,0 +1,15 @@
+build -c opt
+
+build --cxxopt=-std=c++17
+build --host_cxxopt=-std=c++17
+
+#build --copt -Werror
+#build --copt -Wall
+#build --copt -Wextra
+
+# Colorized GCC errors
+build --copt=-fdiagnostics-color=always
+
+# Testing options
+test --test_output=errors
+test --test_summary=terse
