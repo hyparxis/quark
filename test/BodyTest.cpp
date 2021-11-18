@@ -1,6 +1,6 @@
 #include "common.hpp"
 
-#include "src/Body.ipp"
+#include "quark/Body.ipp"
 
 using namespace qrk;
 

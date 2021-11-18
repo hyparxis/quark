@@ -1,5 +1,5 @@
 #pragma once
-#include "src/math/math_autodiff.hpp"
+#include "quark/math/math_autodiff.hpp"
 
 #include "gtest/gtest.h"
 

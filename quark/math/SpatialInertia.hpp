@@ -1,7 +1,7 @@
 #pragma once
 #include "math_core.hpp"
 
-#include "src/Body.hpp"
+#include "quark/Body.hpp"
 
 namespace qrk {
 

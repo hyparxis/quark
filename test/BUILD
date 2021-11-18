@@ -1,14 +1,14 @@
 cc_binary(
   name = "basic_test",
   srcs = ["basic_test.cpp"],
-  deps = ["//src:Body"]
+  deps = ["//quark:Body"]
 )
 
 cc_library(
   name = "common",
   hdrs = ["common.hpp"],
   deps = [
-    "//src/math:math_autodiff",
+    "//quark/math:math_autodiff",
     "@googletest//:gtest_main"
   ]
 )
@@ -18,7 +18,7 @@ cc_test(
   srcs = ["BodyTest.cpp"],
   deps = [
     ":common",
-    "//src:Body",
-    "//src/math:math_autodiff",
+    "//quark:Body",
+    "//quark/math:math_autodiff",
   ]
 )

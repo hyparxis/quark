@@ -1,6 +1,6 @@
 #pragma once
 
-#include "src/math/math_core.hpp"
+#include "quark/math/math_core.hpp"
 
 namespace qrk {
 

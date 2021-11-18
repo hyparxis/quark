@@ -1,7 +1,7 @@
 #pragma once
 #include "SpatialInertia.hpp"
 
-#include "src/Body.ipp"
+#include "quark/Body.ipp"
 
 namespace qrk {
 
